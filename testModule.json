@@ -1,18 +1,17 @@
 {
-  "field1": {
-    "value": "Hello",
-    "type": "STRING"
-  },
-  "field2": {
-    "value": 42,
-    "type": "INTEGER"
-  },
-  "field3": {
-    "value": 3.14,
-    "type": "DOUBLE"
-  },
-  "field4": {
-    "value": true,
-    "type": "BOOLEAN"
-  }
+    "table": "users",
+    "fields": {
+      "name": {
+        "type": "STRING"
+      },
+      "state": {
+        "type": "INTEGER"
+      },
+      "balance": {
+        "type": "DOUBLE"
+      },
+      "enabled": {
+        "type": "BOOLEAN"
+      }
+    }
 }
