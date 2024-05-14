@@ -1,6 +1,9 @@
 {
     "table": "users",
     "fields": {
+      "id": {
+        "type": "INTEGER"
+      },
       "name": {
         "type": "STRING"
       },
