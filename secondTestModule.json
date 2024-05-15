@@ -1,0 +1,17 @@
+{
+  "table": "users",
+  "fields": {
+    "id": {
+      "type": "INTEGER"
+    },
+    "name": {
+      "type": "STRING"
+    },
+    "state": {
+      "type": "INTEGER"
+    },
+    "balance": {
+      "type": "DOUBLE"
+    }
+  }
+}
