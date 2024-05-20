@@ -1,20 +1,18 @@
 {
-  "sql": "Insert into user (businessId, firstName, lastName, adress) values ([[__bidGenerator_1]], [[firstName]], [[lastName]], 'TharanderStr13' );
-          Insert into Account (businessId, user_fk) values ([[__bidGenerator_2]], SELECT id FROM user where businessId=[[__bidGenerator_1]] );
-         ",
-  "fields": {
-    "firstName": {
-      "type": "DROPDOWN"
-      "select" "SELECT id as key, name as title FROM registrations ORDER BY name"
-    },
-    "lastName": {
-      "type": "STRING"
-    }
-    "__bidGenerator_1" : {
-      "type": "BID_GENERATOR"
-    }
-    "__bidGenerator_2" : {
-      "type": "BID_GENERATOR"
-    }
-  }
+   "sql":"Insert into user (businessId, firstName, lastName, adress) values ([[__bidGenerator_1]], [[firstName]], [[lastName]], 'TharanderStr13' ); Insert into Account (businessId, user_fk) values ([[__bidGenerator_2]], SELECT id FROM user where businessId=[[__bidGenerator_1]] );",
+   "fields":{
+      "firstName":{
+         "type":"DROPDOWN",
+         "select":"SELECT id as key, name as title FROM registrations ORDER BY name"
+      },
+      "lastName":{
+         "type":"STRING"
+      },
+      "__bidGenerator_1":{
+         "type":"BID_GENERATOR"
+      },
+      "__bidGenerator_2":{
+         "type":"BID_GENERATOR"
+      }
+   }
 }
