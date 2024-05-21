@@ -1,5 +1,6 @@
 {
    "sql":"Insert into user (businessId, firstName, lastName, adress) values ([[__bidGenerator_1]], [[firstName]], [[lastName]], 'TharanderStr13' ); Insert into Account (businessId, user_fk) values ([[__bidGenerator_2]], SELECT id FROM user where businessId=[[__bidGenerator_1]] );",
+   "table": "users",
    "fields":{
       "firstName":{
          "type":"DROPDOWN",
