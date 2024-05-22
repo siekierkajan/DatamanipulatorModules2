@@ -4,7 +4,7 @@
    "fields":{
       "firstName":{
          "type":"DROPDOWN",
-         "select":"SELECT id as key, name as title FROM registrations ORDER BY name"
+         "select":"SELECT id as `key`, name as title FROM registrations ORDER BY name"
       },
       "lastName":{
          "type":"STRING"
